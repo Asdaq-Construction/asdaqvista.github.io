@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <g fill="none" stroke="#13233F" stroke-opacity="0.045" stroke-width="1">
+    <path d="M0 .5H240M0 60.5H240M0 120.5H240M0 180.5H240M.5 0V240M60.5 0V240M120.5 0V240M180.5 0V240"/>
+  </g>
+  <g fill="none" stroke="#13233F" stroke-opacity="0.025" stroke-width="1">
+    <path d="M0 30.5H240M0 90.5H240M0 150.5H240M0 210.5H240M30.5 0V240M90.5 0V240M150.5 0V240M210.5 0V240"/>
+  </g>
+</svg>

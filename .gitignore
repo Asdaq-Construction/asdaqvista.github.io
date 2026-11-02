@@ -1,0 +1,5 @@
+apps-script/
+*.xlsx
+*.csv
+.DS_Store
+.vscode/

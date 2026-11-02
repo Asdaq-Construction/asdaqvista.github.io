@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Asdaq Vista</title>
+  <meta name="description" content="Monthly rent, electricity and maintenance bills for Asdaq Vista residents.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://script.google.com https://script.googleusercontent.com; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="theme-color" content="#13233F">
+  <link rel="icon" href="assets/img/icon-32.png" sizes="32x32">
+  <link rel="icon" href="assets/img/app-icon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/img/icon-180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Asdaq Vista">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#app">Skip to content</a>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#home" aria-label="Asdaq Vista home">
+        <img src="assets/img/logo-wordmark.png" alt="Asdaq Vista" width="1700" height="238">
+        <span class="brand-by">By Asdaq Construction</span>
+      </a>
+      <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="navlinks" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navlinks" id="navlinks" aria-label="Main"></nav>
+    </div>
+  </header>
+
+  <div class="demo-note" id="demo-note" hidden>Demo mode — sample data only, no real tenants.</div>
+
+  <main id="app" tabindex="-1" aria-live="polite"></main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img class="footer-badge" src="assets/img/badge-asdaq-constructions.png" alt="Asdaq Construction — your trust, our foundation" width="180" height="252">
+        <div>
+          <p class="footer-name">Asdaq Vista</p>
+          <p>Hulimavu, Bengaluru, Karnataka 560076</p>
+          <p class="footer-small">Each flat's bill is private to that flat.</p>
+        </div>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#tenant">Residents' login</a></li>
+        <li><a href="#staff">Owner &amp; admin login</a></li>
+        <li id="footer-help"></li>
+        <li id="footer-map"></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2026</span> Asdaq Construction. All rights reserved.</p>
+      <p>Developed by <a href="https://github.com/EMADUDDINAsdaq" target="_blank" rel="noopener">Emaduddin</a></p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+  <dialog class="sheet" id="sheet" aria-labelledby="sheet-title"></dialog>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/demo.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
